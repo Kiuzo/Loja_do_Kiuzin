@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Demonstrativa</title>
+    <link rel="stylesheet" href="/Css/styles.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- Nav -->
+
+    <nav class="nav">
+        <h1>Loja do Kiuzin</h1>
+        <div class="nav-items">
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre-nos">Sobre nós</a>
+            <a href="#localizacao">Localização</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="background">
+        <div class="conteudo-principal">
+            <h1 class="titulo">Loja do Kiuzin</h1>
+            <h1>Conheça nossos produtos.</h1>
+            <button class="botao" onclick="navegarParaId('produtos')">Ver produtos</button>
+        </div>
+    </div>
+
+    <!-- Produtos -->
+    <div id="produtos">
+        <div class="conteudo-principal">
+            <h1 class="titulo">Produtos</h1>
+            <div class="carrosel">
+
+                <!-- Tênis preto corrida -->
+
+                <div class="tenis">
+                    <img class="imagem-carrosel" src="/Imgs/tenis1.jpg" alt="Tênis1">
+                    <p class="paragrafo-venda">Tênis preto corrida</p>
+                    <p class="paragrafo-venda preco">R$ 350</p>
+                </div>
+
+                <!-- Tênis branco casual -->
+
+                <div class="tenis">
+                    <img class="imagem-carrosel" id="tenis-branco" src="/Imgs/tenis2.jpg" alt="Tênis2">
+                    <p class="paragrafo-venda">Tênis branco casual</p>
+                    <p class="paragrafo-venda preco">R$ 299</p>
+                </div>
+
+                <!-- Tênis elegante verde -->
+
+                <div class="tenis">
+                    <img class="imagem-carrosel" src="/Imgs/tenis3.jpg" alt="Tênis3">
+                    <p class="paragrafo-venda">Tênis elegante verde</p>
+                    <p class="paragrafo-venda preco">R$ 199</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre nós -->
+
+    <div id="sobre-nos">
+        <div class="conteudo-principal">
+            <h1 class="titulo">Sobre nós</h1>
+            <div class="sobre-nos">
+                <div class="flex-col paragrafos-about">
+
+                    <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque assumenda
+                        excepturi
+                        necessitatibus reprehenderit, incidunt recusandae ea! In quisquam iure, ad, architecto laborum,
+                        natus
+                        dolorum expedita libero maxime voluptatibus magni molestias.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi commodi quisquam quo esse
+                        eius, veritatis molestiae maiores fuga magnam impedit voluptas eaque iusto, unde officia totam
+                        obcaecati saepe minus ad?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat sapiente eius saepe,
+                        vel perspiciatis. Quidem sapiente voluptas minus, omnis perspiciatis repudiandae id beatae,
+                        maxime consequuntur ducimus illo nesciunt magnam.</p>
+
+                    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta similique
+                        beatae ad
+                        in.
+                        Totam veniam non aut rerum quos dolorum repudiandae, eveniet eaque quis error delectus,
+                        necessitatibus
+                        porro fugiat at.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur atque tempore impedit
+                        tempora, dolores harum nisi eveniet soluta dolore totam doloribus ratione quos corporis
+                        veritatis voluptas ducimus sequi vitae ad.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel iusto odit dolor rem ullam
+                        quasi saepe necessitatibus, et a dolorum dolores adipisci in consequuntur nostrum, nihil cum
+                        architecto nemo.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ullam in dicta cupiditate
+                        voluptatum ipsa nostrum quisquam cumque! Voluptates ratione, at pariatur commodi eveniet
+                        repellat quo maxime. Ad, tempora ducimus?</p>
+
+                    <p class="paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem tenetur
+                        doloremque
+                        doloribus fugiat enim! Similique incidunt, reiciendis tenetur porro laborum quos eveniet ullam
+                        error
+                        deleniti inventore harum voluptate quam dignissimos.</p>
+
+                </div>
+
+                <img class="homem-img" src="/Imgs/Tenis_main.jpg" alt="Homem">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Localização -->
+
+    <div id="localizacao">
+        <div class="conteudo-principal">
+            <h1 class="titulo">Localização</h1>
+            <div class="localizacao">
+                <ul class="lista">
+                    <li>
+                        <span>Endereço:</span>
+                        Rua da Paz / 49043-475
+                    </li>
+                    <li>
+                        <spa>Bairro:</span>
+                            Santa Maria
+                    </li>
+                    <li>
+                        <span>Localidade/UF:</span>
+                        Aracaju - SE
+                    </li>
+                </ul>
+
+                <div class="map-wrapper">
+                    <div class="map-container">
+                        <iframe src="https://maps.google.com/maps?q=-10.9472,-37.0734&z=15&output=embed" width="100%"
+                            height="100%" frameborder="0" class="map-iframe" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer" id="footer">
+
+        <div>
+            <p class="paragrafo-footer">Loja do Kiuzin</p>
+            <p class="paragrafo">Todos direitos reservados.</p>
+            <p>Site por David Soares @2025</p>
+        </div>
+
+        <div>
+            <ul class="lista">
+                <li>
+                    <a href="#produtos">Produtos</a>
+                </li>
+                <li>
+                    <a href="#sobre-nos">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#localizacao">Localização</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
