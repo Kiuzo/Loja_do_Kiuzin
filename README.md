@@ -3,6 +3,8 @@
 # Loja do Kiuzin
 Projeto Landing Page de loja de roupas
 
+https://kiuzo.github.io/Loja_do_Kiuzin/
+
 # TECNOLOGIAS UTILIZADAS
 
 <table>
